@@ -1,0 +1,24 @@
+#carouselExampleCaptions{
+    width: 90%;
+    height: 350px;
+    background-color: var(--blue-color);
+    margin-left: 5%;
+    margin-top: 50px;
+    display: none;
+}
+
+.d-block-hobbies {
+    height: 90%;
+    width: 100%;
+}
+
+.titulo-hobbies{
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.carousel-item{
+    width: 60%;
+    
+    margin-left: 20%;
+}

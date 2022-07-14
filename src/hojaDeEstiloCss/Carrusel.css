@@ -8,7 +8,6 @@
 #contenedor-principal{
     display: flex;
     width: 100%;
-    
 }
 
 .carousel-item{
@@ -23,7 +22,6 @@
 }
 
 #contenedor-datos{
-    
     margin-top: 50px;
     width: 30%;
     height:300px;

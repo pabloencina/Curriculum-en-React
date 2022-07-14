@@ -1,0 +1,31 @@
+#contenedor{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    background-color: var(--blue-color);
+    margin-top: 10px;
+    display: flex;
+}
+
+#fotoPerfil{
+    width: 130%;
+    height: 200px;
+}
+
+#contenedor-nombre{
+    
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+#tituolo-presentacion{
+    font-family: 'Lato', sans-serif;
+}
+
+#parrafo-presentacion{
+    font-family: 'Lato', sans-serif;
+}
+

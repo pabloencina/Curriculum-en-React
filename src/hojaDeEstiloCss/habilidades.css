@@ -1,0 +1,27 @@
+#cont-principal{
+    width: 90%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#cont-habilidades{
+    width: 40%;
+}
+
+#cont-tecnologias{
+    width: 40%;
+    margin-left: 20%;
+}
+
+.titlulo-tec-habilid{
+    color: var(--blue-color);
+    font-family: 'Lato', sans-serif;
+}
+
+.list-group-item{
+    background-color: var(--blue-color);;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}

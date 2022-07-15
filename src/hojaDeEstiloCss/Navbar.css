@@ -1,8 +1,8 @@
 .btn{
     margin-left: auto;
     margin-right: auto;
-    background-color: var(--boton-color);;
-    color: white;
+    background-color: var(--letra-color);;
+    color: var(--fondo-items-color);
     font-family: 'Lato', sans-serif;
 }
 .navbar{
@@ -10,5 +10,5 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    background-color: #dde1e3;
+    background-color: var(--fondo-items-color);
 }

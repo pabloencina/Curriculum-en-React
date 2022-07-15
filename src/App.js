@@ -19,10 +19,10 @@ function App() {
     <div className="App">
       <Navbar />
       <Presentacion />
-      <Hobbies/>
       <CarruselImagenes />
       <Acordeon />
       <Habilidades />
+      <Hobbies/>
       <Zocalo/>
     </div>
   );

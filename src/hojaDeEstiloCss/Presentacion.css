@@ -18,7 +18,7 @@
     width: 100%;
     text-align: center;
     margin: auto;
-    color: white;
+    color: var(--color-letra-fondo-green)
 }
 
 #tituolo-presentacion{

@@ -31,7 +31,7 @@
 
 .datos-personales{
     margin-top: 20px;
-    color: white;
+    color: var(--color-letra-fondo-green);
     font-family: 'Lato', sans-serif;
 }
 

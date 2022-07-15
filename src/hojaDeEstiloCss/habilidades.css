@@ -22,6 +22,6 @@
 
 .list-group-item{
     background-color: var(--blue-color);;
-    color: white;
+    color: var(--color-letra-fondo-green);
     font-family: 'Lato', sans-serif;
 }

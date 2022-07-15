@@ -3,6 +3,6 @@
     height: 50px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #dde1e3;
+    background-color: var(--fondo-items-color);
     margin-top: 50px;
 }

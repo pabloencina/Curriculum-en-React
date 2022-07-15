@@ -12,3 +12,16 @@
     margin-top: 10px;
     background-color: var(--fondo-items-color);
 }
+
+.dropdown{
+    margin-left: 20%;
+    
+}
+.dropdown-menu{
+    background-color: var(--fondo-items-color);
+    
+}
+
+.dropdown-item{
+    color: var(--letra-color);
+}

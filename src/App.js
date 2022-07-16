@@ -6,7 +6,7 @@ import CarruselImagenes from "./componentes/CarruselImg";
 import Presentacion from "./componentes/Presentacion";
 import Habilidades from "./componentes/Habilidades";
 import Zocalo from "./componentes/Zocalo";
-import Hobbies from "./componentes/Hobbies";
+
 //import { useState } from "react";
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
       <CarruselImagenes />
       <Acordeon />
       <Habilidades />
-      <Hobbies/>
+      
       <Zocalo/>
     </div>
   );

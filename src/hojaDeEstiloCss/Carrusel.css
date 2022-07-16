@@ -1,41 +1,100 @@
-#carouselExampleControls{
-    width: 60%;
+#carouselExampleCaptions{
+    width: 90%;
+    height: 400px;
     background-color: var(--blue-color);
-    margin-left: 5%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 50px;
-    display: flex;
+    
 }
-#contenedor-principal{
-    display: flex;
-    width: 100%;
+
+.d-block-hobbies {
+    height: 100%;
+    width: 50%;  
+}
+
+.titulo-hobbies{
+    font-family: 'Lato', sans-serif;
+    color: var(--color-letra-hobbie);
+}
+
+#proyectos-titulo{
+    color: var(--blue-color);
+    font-family: 'Lato', sans-serif;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
 }
 
 .carousel-item{
-    height:300px
+    width: 100%;
 }
 
-.d-block{
-    height: 100%;
+.contenedor-image-texto{
+    width: 80%;
+    height: 350px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+}
+.carousel-inner{
+    width: 100%;
+}
+.contenedor-texto{
+    width:100% ; 
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 5%;
+    margin-right: auto;
+    color: var(--color-letra-fondo-green);
+    font-family: 'Lato', sans-serif;
     
 }
+.titulo-texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.btn-hobbies{
+    height: 350px;
+    border: none; 
+    background: none;
+    text-decoration: none; 
+}
+
+.btn-hobbies:hover{
+    background-color: var(--primary-color);
+}
+.btn-proyectos{
+    background-color:var(--primary-color) ;
+    display: flex;
+    margin-left: 45%;
+    color: var(--blue-color);
+}
+
+
 
 #contenedor-datos{
     margin-top: 50px;
-    width: 30%;
-    height:300px;
+    width: 40%;
     background-color: var(--blue-color);
-    
 }
 
 .datos-personales{
-    margin-top: 20px;
+    
     color: var(--color-letra-fondo-green);
     font-family: 'Lato', sans-serif;
 }
 
 a{
-    margin-top: 20px;
+    margin-top: 10px;
     display: block;
 }

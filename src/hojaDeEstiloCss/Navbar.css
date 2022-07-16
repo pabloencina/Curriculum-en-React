@@ -1,6 +1,6 @@
 .btn{
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 90%;
+    
     background-color: var(--letra-color);;
     color: var(--fondo-items-color);
     font-family: 'Lato', sans-serif;
@@ -25,3 +25,12 @@
 .dropdown-item{
     color: var(--letra-color);
 }
+
+.btn-proyectos{
+background-color: transparent;
+border: none;
+}
+
+  .custom-tooltip {
+    --bs-tooltip-bg: var(--bs-primary);
+  }

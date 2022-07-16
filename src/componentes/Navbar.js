@@ -29,50 +29,7 @@ function Navbar() {
   return (
     <nav className="navbar ">
       <form className="container-fluid justify-content-start">
-        <div class="dropdown">
-          <button
-            class="btn btn-secondary dropdown-toggle"
-            type="button"
-            id="dropdownMenuButton1"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Mis proyectos
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li>
-              <a
-                class="dropdown-item"
-                href="https://romantic-lichterman-e8dc4d.netlify.app/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <i class="bi-github" color="red"></i> Gifos
-                
-              </a>
-            </li>
-            <li>
-              <a
-                class="dropdown-item"
-                href="https://elaborate-rabanadas-a89099.netlify.app/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <i class="bi-github" color="red"></i> Color game
-              </a>
-            </li>
-            <li>
-              <a
-                class="dropdown-item"
-                href="https://62c5c6426dee8b05168be41e--statuesque-llama-7df0cc.netlify.app/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <i class="bi-github" color="red"></i> Pókemon
-              </a>
-            </li>
-          </ul>
-        </div>
+        
 
         <button
           type="button"

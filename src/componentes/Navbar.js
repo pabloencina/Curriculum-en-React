@@ -6,6 +6,7 @@ function Navbar() {
   const [checked, setChecked] = useState(
     localStorage.getItem("theme") === "dark" ? true : false
   );
+  const [buttonText, setButtonText] = useState(localStorage.getItem("theme") === "dark" ? 'Modo Nocturno' : 'Modo Diurno');
 
   useEffect(() => {
     document
@@ -17,27 +18,25 @@ function Navbar() {
     if (checked === false) {
       localStorage.setItem("theme", "dark");
       setChecked(true);
-      setChecked("modo diurno");
+      setButtonText('Modo Nocturno')
       console.log("modo diurno");
     } else {
       localStorage.setItem("theme", "light");
       setChecked(false);
+      setButtonText('Modo Diurno')
       console.log("modo nocturno");
     }
   };
-
   return (
     <nav className="navbar ">
       <form className="container-fluid justify-content-start">
-        
-
         <button
           type="button"
           className="btn btn-sm btn-outline-secondary"
-          defaultChecked={checked}
+          //defaultChecked={checked}
           onClick={() => toggleThemeChange()}
         >
-          Modo Diurno
+          {buttonText}
         </button>
       </form>
     </nav>

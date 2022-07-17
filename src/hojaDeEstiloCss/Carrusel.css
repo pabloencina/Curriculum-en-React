@@ -4,7 +4,7 @@
     background-color: var(--blue-color);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 50px;  
     
 }
 
@@ -89,7 +89,6 @@
 }
 
 .datos-personales{
-    
     color: var(--color-letra-fondo-green);
     font-family: 'Lato', sans-serif;
 }

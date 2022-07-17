@@ -7,11 +7,13 @@
 }
 .navbar{
     width: 90%;
-    margin-left: auto;
+    margin-left: 5%;
     margin-right: auto;
-    margin-top: 10px;
+    
     background-color: var(--fondo-items-color);
+    position: fixed;
 }
+
 
 .dropdown{
     margin-left: 20%;
